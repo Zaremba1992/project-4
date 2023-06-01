@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-top: 36px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.img-logo {
+  width: 100%;
+}
+
+.logo-img {
+  width: 130px;
+  height: 37px;
+}
+
+.nav-list-list {
+  display: flex;
+  gap: 30px;
+  padding-left: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #191919;
+}
+
+hr {
+  width: 520px;
+  height: 0px;
+  margin: 20px 0 40px 40px;
+  border: 3px solid #f1f1f1;
+}
+
+.hero {
+  display: flex;
+  margin: 60px 0 40px 40px;
+  flex-direction: row-reverse;
+}
+
+.hero-text {
+  flex-direction: column;
+}
+
+.hero-img {
+  display: flex;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #191919;
+  width: 90%;
+}
+
+.text-small {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #595959;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.batton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 36px;
+  width: 153px;
+  height: 48px;
+  margin-top: 30px;
+  background: #52d0f0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.batton {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.hero-img-img {
+  width: 100%;
+}
+
+.hero-img {
+    width: 315px;
+    height: 235px;
+    margin-right: 62px;
+}
+
+@media screen and (max-width:600px) {
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .logo-img {
+        margin-left: 45px;
+    }
+    
+    hr {
+       width: 90%;
+       margin: 0 auto; 
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        width: 210px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .hero-text {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    h1 {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    .text-small {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    .batton {
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-left: 30%;
+}
+
+@media screen and (max-width:533px) {
+   
+    h1 {
+        width: 45%;
+    }
+
+    .text-small {
+        width: 45%;
+    }
+
+    .batton {
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-left: 27%;
+    }
+}
+
